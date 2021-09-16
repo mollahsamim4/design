@@ -28,7 +28,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
     padding: 1rem;
+    background-repeat: no-repeat;
 }
 .wrapper .box{
     width: auto;

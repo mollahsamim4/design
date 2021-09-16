@@ -36,17 +36,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: .5rem;
+    gap: 1em;
 }
 .wrapper .box .box_middle h2{
     font-family: sans-serif;
     color: #0B2B96;
+    font-size: 1.3em;
 }
 .wrapper .box .box_middle p{
     font-family: sans-serif;
     color: #989393b0;
     font-size: 1rem;
     font-weight: 600;
+    font-size: .8rem;
+    margin: 0 4em;
 }
 
 .wrapper .box form{

@@ -28,9 +28,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 .wrapper .box{
-    width: 450px;
+    width: auto;
     height: 450px;
     background: #fff;
     display: flex;
@@ -68,6 +69,7 @@
     font-weight: 600;
     font-size: .8rem;
     margin: 0 4em;
+    text-align: center;
 }
 
 .wrapper .box form{
@@ -160,6 +162,8 @@
     justify-content: center;
     align-items: center;
     gap: 3em;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .wrapper .not_received span{

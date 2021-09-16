@@ -28,9 +28,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 .wrapper .box{
-    width: 450px;
+    width: auto;
     height: 450px;
     background: #fff;
     display: flex;
@@ -55,6 +56,7 @@
     align-items: center;
     flex-direction: column;
     gap: 1em;
+    text-align: center;
 }
 .wrapper .box .box_middle h2{
     font-family: var(--roboto);
